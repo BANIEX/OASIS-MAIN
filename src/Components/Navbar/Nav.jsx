@@ -4,7 +4,7 @@ import './Nav.css'
 const Nav = () => {
   return (
     <div className='nav__con'>
-        <div>
+        <div className='logodiv'>
             <img className='logo' src={logo} alt='logo' />
         </div>
         <nav>
@@ -17,11 +17,12 @@ const Nav = () => {
 
                 
             </ul>
-            <div>
+            
+        </nav>
+        <div className='hamburger'>
               <i className="fas fa-bars"></i>
 
-            </div>
-        </nav>
+        </div>
     </div>
   )
 }
