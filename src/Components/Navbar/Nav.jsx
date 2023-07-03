@@ -1,5 +1,5 @@
 import logo from '../../image/logo.jpeg'
-import './nav.css'
+import './Nav.css'
 
 const Nav = () => {
   return (
@@ -14,7 +14,13 @@ const Nav = () => {
                 <li>Contact Us</li>
                 <li>Support</li>
                 <li className='donate'>Donate</li>
+
+                
             </ul>
+            <div>
+              <i className="fas fa-bars"></i>
+
+            </div>
         </nav>
     </div>
   )
