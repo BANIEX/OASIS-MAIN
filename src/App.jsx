@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import Nav from './Components/Navbar/Nav'
+import { Route, Routes, useNavigate, Navigate } from "react-router-dom";
 
 
 function App() {
@@ -8,6 +9,12 @@ function App() {
   return (
     <>
     <Nav/>
+    <Routes>
+      <Route path='/' element={<Home/>}>
+
+      </Route>
+    </Routes>
+
 
       
     </>
