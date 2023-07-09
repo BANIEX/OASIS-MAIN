@@ -1,8 +1,12 @@
-import Nav from "../Navbar/Nav"
+import Activity from "../Activity/Activity"
+import Header from "../Header/Header"
+import Mission from "../Mission/Mission"
 const Home = () => {
   return (
     <div>
-      <Nav/>
+      <Header/>
+      <Mission/>
+      <Activity/>
     </div>
   )
 }
