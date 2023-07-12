@@ -1,4 +1,5 @@
 import AboutFirst from '../AboutFirst/AboutFirst'
+import AboutObjectives from '../AboutObjectives/AboutObjectives'
 import AboutSecond from '../AboutSecond/AboutSecond'
 
 const About = () => {
@@ -6,6 +7,7 @@ const About = () => {
     <div className='header'>
       <AboutFirst/>
       <AboutSecond/>
+      <AboutObjectives/>
     </div>
   )
 }
