@@ -48,8 +48,34 @@ letter-spacing: -0.05em;
 }
 
 .ourobjective_right_subcontainer{
-  display: contents;
+  padding: 30px;
 }
 
+
+.objective_one, .objective_two, .objective_three{
+  display: flex;
+  padding-bottom: 40px;
+}
+
+.objective_one_number, .objective_two_number, .objective_three_number{
+  padding-right: 20px;
+  font-weight: 700;
+  font-size: 44px;
+  color:  rgba(235, 70, 0, 1);
+  padding-bottom  : 30px;
+  position: relative;
+  top: -20px
+
+}
+
+.objective_one_content, .objective_two_content, .objective_three_content{
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 1);
+
+
+
+}
 
 
