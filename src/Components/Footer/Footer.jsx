@@ -1,55 +1,72 @@
-import logo from '../../image/IMG-20230314-WA0010 25.png'
-import {RiFacebookFill} from 'react-icons/ri'
-import {BsTwitter} from 'react-icons/bs'
-import {BsLinkedin} from 'react-icons/bs'
+// import logo from '../../image/IMG-20230314-WA0010 25.png'
+// import {RiFacebookFill} from 'react-icons/ri'
+// import {BsTwitter} from 'react-icons/bs'
+// import {BsLinkedin} from 'react-icons/bs'
 import './Footer.css'
+import Ellipse268 from '../../image/Ellipse268.png'
 
 const Footer = () => {
   return (
-    <div className='footer__con'>
-      <div className='footer__details'>
-        <div>
-          <div className='footer__logo'>
-            <p>THE</p>
-            <img className='footer__image' src={logo} alt='pic' />
-            <p>INITIATIVE</p>
-          </div>
-          <p className='detail'>
-              A non-profit organization committed to reducing mortality from the Non-communicable Diseases (NCDs).A non-profit organization committed to reducing mortality . 
-          </p>
-          <div className='icon__con'> 
-              <RiFacebookFill className='icon1'/>
-              <BsTwitter className='icon2'  />
-              <BsLinkedin className='icon3'/>
-          </div>
+    <div className="updiv3">
+       
+       
+        <div className="footer">
+            <div className="subdiv3left">
+                <div className="subdiv3leftpikin">
+                    <p className="the">THE</p>
+                    <div className="oasisimage2">
+                        {/* <img src="./ imagesoasis/oasislogo.png" alt="oasislogo"> */}
+                         <img src={Ellipse268} alt='pic'/>
+
+                        <div className="initiative">INITIATIVE</div>  
+                    </div>
+                    
+                    <p className="note">A non-profit organization committed to reducing mortality from the Non-communicable Diseases (NCDs).A non-profit  organization committed to reducing mortality .
+                    </p>
+        
+                    <div className="icons2">
+                        <i className="fa-brands fa-facebook"></i> <span>
+                        <i className="fa-brands fa-twitter"></i></span> <span>
+                        <i className="fa-brands fa-linkedin"></i></span>
+                    </div>
+
+                </div>
+ 
+            </div>
+            
+            
+            <div className="subdiv3right">
+                <div className="leftlist">
+                    <p className="h0">Company</p>
+                    <p className="h1">Home</p>
+                    <p className="h2">About Us</p>
+                    <p className="h3">Contact Us</p>
+                    <p className="h4">Support</p>
+                    <p className="h5">Donate</p>
+                </div>
+                
+    
+                <div className="rightlist">
+                    <p className="h0">Other options</p>
+                    <p className="h1">Volunteer</p>
+                    <p className="h2">About Us</p>
+                    <p className="h3">Contact Us</p>
+                    <p className="h4">Support</p>
+                    <p className="h5">Donate</p>
+                </div>
+            </div>
+
+
+       
+            
         </div>
 
-        <div className='footer__li'>
-          <h3>Company</h3>
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Support</li>
-            <li className='donate'>Donate</li>
-          </ul>
+        <div className="below">
+            <p className="white">
+                Copyright Reserved @ 2023. The Oasis Initiative
+            </p>
         </div>
 
-        <div className='footer__li'>
-          <h3>Service</h3>
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Support</li>
-            <li className='donate'>Donate</li>
-          </ul>
-        </div>
-      </div>
-     <div className='footer__line'>
-      <hr />
-      <p>Copyright Reserved @ 2023. The Oasis Initiative</p>
-     </div>
     </div>
   )
 }
