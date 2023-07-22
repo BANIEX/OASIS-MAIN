@@ -78,4 +78,30 @@ letter-spacing: -0.05em;
 
 }
 
+@media screen and (max-width: 800px) {
+  .ourobjective_container{
+    margin-top: 80px;
+  }
+  .ourobjective_bottom{
+    margin-top: 15px;
+  }
+  .ourobjective_right_subcontainer{
+  padding: 20px 3px;
+}
 
+  .ourobjective_left{
+    display: none;
+  }
+  .ourobjective_right{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .ourobjective_container{
+    margin-top: 160px;
+  }
+ 
+
+}

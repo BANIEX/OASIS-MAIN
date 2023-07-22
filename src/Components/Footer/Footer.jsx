@@ -3,7 +3,9 @@
 // import {BsTwitter} from 'react-icons/bs'
 // import {BsLinkedin} from 'react-icons/bs'
 import './Footer.css'
-import Ellipse268 from '../../image/Ellipse268.png'
+// import Ellipse268 from '../../image/Ellipse268.png'
+import logo from '../../image/logo.jpeg'
+
 
 const Footer = () => {
   return (
@@ -16,7 +18,7 @@ const Footer = () => {
                     <p className="the">THE</p>
                     <div className="oasisimage2">
                         {/* <img src="./ imagesoasis/oasislogo.png" alt="oasislogo"> */}
-                         <img src={Ellipse268} alt='pic'/>
+                         <img className='logo' src={logo} alt='pic'/>
 
                         <div className="initiative">INITIATIVE</div>  
                     </div>
