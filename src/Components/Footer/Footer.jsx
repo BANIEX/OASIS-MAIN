@@ -5,6 +5,10 @@
 import './Footer.css'
 // import Ellipse268 from '../../image/Ellipse268.png'
 import logo from '../../image/logo.jpeg'
+import oasispng from '../../image/oasispng.png'
+import oasispng2 from '../../image/oasispng2.png'
+
+
 
 
 const Footer = () => {
@@ -15,10 +19,10 @@ const Footer = () => {
         <div className="footer">
             <div className="subdiv3left">
                 <div className="subdiv3leftpikin">
-                    <p className="the">THE</p>
+                    {/* <p className="the">THE</p> */}
                     <div className="oasisimage2">
                         {/* <img src="./ imagesoasis/oasislogo.png" alt="oasislogo"> */}
-                         <img className='logo' src={logo} alt='pic'/>
+                         <img className='logo' src={oasispng2} alt='pic'/>
 
                         <div className="initiative">INITIATIVE</div>  
                     </div>

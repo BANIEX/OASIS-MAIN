@@ -49,7 +49,7 @@ const Activity = () => {
   return (
     
     <div className='activity' >
-      <h1>Our Activities</h1>
+      <div className='activity__text'>Our Activities</div>
       <div className='details__con'>
         {details}
       </div>

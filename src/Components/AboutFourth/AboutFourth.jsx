@@ -36,7 +36,7 @@ const AboutFourth = () => {
         <div className="about_fourth_bottom">
           <div className="about_fourth_image_contaner">
             <img className="about_fourth_image"></img>
-          </div>
+          </div> 
         </div>
 
       </div>

@@ -116,15 +116,22 @@
     flex-direction: column-reverse;
     border: 2px solid red;
     margin: 0 auto;
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
   }
 
   .mission__second{
-    width: 80%;
+    /* width: 80%; */
+    width: 100%;
+    
   }
   
   .mission__first__image{
     margin: 10px auto;
+    width: 100%;
+  }
+  .mission__first__image img{
+    width: 100%;
   }
 
 

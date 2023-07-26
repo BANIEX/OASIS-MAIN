@@ -10,7 +10,7 @@
     background-repeat: no-repeat, no-repeat;
     background-size: 230px 600px, 250px 500px;
 }
-.activity h1{
+.activity .activity__text{
     text-align: center;
     height: 55px;
     font-family: 'Helvetica';
@@ -21,7 +21,7 @@
     letter-spacing: -0.05em;
     color: #00084A;
 }
-.activity h1::before{
+.activity .activity__text::before{
     content: '+';
     display: flex;
     justify-content: center;
@@ -40,6 +40,7 @@
     background: rgba(62, 81, 245, 0.84);
     filter: drop-shadow(0px 12.5px 20.5357px rgba(62, 81, 245, 0.84));
 }
+
 .details{
     display: flex;
     flex-direction: column;
@@ -81,4 +82,13 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 650px) {
+    .details__con{
+
+    margin-top: 50px;
+}
+
 }
