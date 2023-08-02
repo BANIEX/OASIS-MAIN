@@ -1,4 +1,6 @@
 import "./AboutFourth.css";
+import seventysevensection from "../../image/seventy-sevensection.png";
+
 
 const AboutFourth = () => {
   return (
@@ -33,14 +35,14 @@ const AboutFourth = () => {
           </div>
 
           <div className="about_fourth_middle_list">
-            <div className="about_fourth_bullets"></div>
+            <span className="about_fourth_bullets"></span>
             <div>
               This puts them at risk of complications and eventually causing end organ damage and deaths
             </div>
           </div>
 
           <div className="about_fourth_middle_list">
-            <div className="about_fourth_bullets"></div>
+            <span className="about_fourth_bullets"></span>
             <div>
               There is need for proper enlightenment on the non-communicable
               diseases, access to screening and treatment.
@@ -49,8 +51,8 @@ const AboutFourth = () => {
         </div>
 
         <div className="about_fourth_bottom">
-          <div className="about_fourth_image_contaner">
-            <img className="about_fourth_image"></img>
+          <div className="about_fourth_image_container">
+            <img className="about_fourth_image" src={seventysevensection}/>
           </div>
         </div>
       </div>
