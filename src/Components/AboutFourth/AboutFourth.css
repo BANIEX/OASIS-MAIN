@@ -3,5 +3,70 @@
 }
 
 .about_fourth_subcontainer{
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid blue;
+}
+
+.about_fourth_top{
+  border: 2px solid red;
+
+}
+.about_fourth_top_first_text{
+  font-weight: 700;
+  color: rgba(0, 8, 74, 1);
+  font-size: 2.5rem;
+}
+.about_fourth_top_second_text{
+  color: rgba(235, 70, 0, 1);
+  font-weight: 600;
+  font-size: 2.4rem;
+
+}
+
+.about_fourth_subwrapper{
+  display: flex;
   
 }
+.about_fourth_subwrapper > div{
+  margin-right: 20px;
+}
+.about_fourth_top_third_text{
+  width: 400px;
+  padding-top: 15px;
+  color: rgba(34, 34, 34, 1);
+  font-family: 'Inter';
+
+}
+
+.about_fourth_middle{
+  border: 2px solid yellow;
+  width: 900px;
+}
+.about_fourth_middle > div{
+  margin-top: 40px;
+  color: rgba(34, 34, 34, 1);
+  font-family: 'Inter';
+  font-size: 1rem;
+}
+.seventy-seven{
+  color: rgba(0, 8, 74, 1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.percent{
+  color: rgba(235, 70, 0, 1);
+  font-size: 2rem;
+  font-weight: 700;
+}
+.about_fourth_middle_list{
+  display: flex;
+}
+.about_fourth_bullets{
+  width: 20px;
+  height: 20px;
+  background-color: rgba(235, 70, 0, 1);
+  border-radius: 50%;
+
+}
+
