@@ -9,7 +9,7 @@
 }
 
 .about_fourth_top{
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 .about_fourth_top_first_text{
@@ -123,16 +123,43 @@
 
   
 .about_fourth_image_container{
-  border: 2px solid red;
+  /* border: 2px solid red; */
   display: flex;
   justify-content: center;
   position: static;
   padding: 30px;
 
 }
+.about_fourth_top{
+  display: inline;
+}
+.about_fourth_top_first_text{
+  display: inline;
+  font-size: 2rem;
+}
+
+.about_fourth_subwrapper{
+  display: inline;
+}
+.about_fourth_top_second_text{
+  display: inline;
+}
+.about_fourth_top_second_text{
+  display: inline;
+}
+
+.about_fourth_subwrapper{
+
+}
+
+.about_fourth_middle{
+  width: 90%;
+}
   
  
 }
+
+
 
 
 
