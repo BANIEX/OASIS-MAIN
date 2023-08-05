@@ -1,6 +1,7 @@
 import "./AboutFirst.css"
 import Ellipse266 from '../../image/Ellipse266.png'
 import Ellipse265 from '../../image/Ellipse265.png'
+import Ellipse289 from '../../image/Ellipse289.png'
 
 
 
@@ -36,6 +37,11 @@ const AboutFirst = () => {
           <img src={Ellipse265} alt='pic'/>
 
         </div>
+
+      </div>
+
+      <div className="about_first_down">
+        <img src={Ellipse289}/>
 
       </div>
 

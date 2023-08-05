@@ -3,8 +3,7 @@ import Ellipse268 from "../../image/Ellipse268.png";
 
 const AboutSecond = () => {
   return (
-    <div className="mission__con">
-      <div className="about_second">
+    <div className="mission_con">
         <div className="about_second_subcontainer">
           <div className="about_second_left">
             <div className="about_second_left_maintext">More About Us</div>
@@ -20,7 +19,6 @@ const AboutSecond = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

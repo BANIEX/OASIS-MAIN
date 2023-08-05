@@ -1,0 +1,16 @@
+.header__about{
+   background-image: url(/src/image/VectorPattern.png), url(/src/image/VectorPatternb.png);
+    background-position: left top, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 250px 300px, 250px 500px;  
+
+}
+
+@media screen and (max-width: 430px ) {
+  .header__about{
+    background-size: 5rem 300px, 3rem 500px;  
+
+
+  }
+  
+}

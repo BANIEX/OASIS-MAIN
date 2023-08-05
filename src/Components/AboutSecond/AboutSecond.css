@@ -71,6 +71,7 @@
  
   .about_second_left{
     width: 70%;
+    margin: 0 auto;
   }
 
 
@@ -84,6 +85,7 @@
 
  .about_second_right{
 
+   margin: 0 auto;
   margin-top: 59px;
   /* border: 2px solid red; */
 
@@ -92,7 +94,7 @@
  .about_second_right img{
   width: 230px;
   height: 230px;
-  margin-left: -40px;
+  /* margin-left: -40px; */
 
 
  }
@@ -106,16 +108,25 @@
 
   .about_second_subcontainer{
     flex-direction: column;
-    margin: 20px auto;
+    margin: 0px auto;
     margin-top: 250px;
-    margin-left: 40px;
+    /* margin-left: 0px; */
     
 
   }
 
 
+}
 
 
+
+
+@media screen and (max-width: 400px) {
+
+ .about_second_left_maintext {
+    font-size: 1rem;
+}
 
 
 }
+
