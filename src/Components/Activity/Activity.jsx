@@ -1,5 +1,5 @@
 import './Activity.css'
-import Ellipse289 from '../../image/Ellipse 289.png'
+import Ellipse289 from '../../image/Ellipse289.png'
 import Ellipse2891 from '../../image/Ellipse2891.png'
 import Ellipse2894 from '../../image/Ellipse2894.png'
 import Ellipse2892 from '../../image/Ellipse2892.png'

@@ -1,6 +1,6 @@
 .about_first_layer{
   display: flex;
-  /* border:  2px solid yellow; */
+  border:  2px solid yellow;
   height: 500px;
 }
 /* ABOUT FIRST LAYER LEFT */

@@ -1,7 +1,7 @@
 // import { IconContext } from 'react-icons'
 import { RxChevronDown } from 'react-icons/rx'
 import './Header.css'
-import Ellipse289 from '../../image/Ellipse 289.png'
+import Ellipse289 from '../../image/Ellipse289.png'
 //import VectorPattern from '../../image/VectorPattern.png'
 //import VectorPatternb from '../../image/VectorPatternb.png'
 

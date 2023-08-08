@@ -1,12 +1,13 @@
-.about_second{
-  height: 28.125rem;
-  margin-top: 200px;
+.about_second_container{
+  margin-top: 100px;
+  margin-bottom: 100px;
   /* border: 2px solid black; */
 }
+
+
 .about_second_subcontainer{
   display: flex;
   /* border: 2px solid red; */
-  height: 45px;
   justify-content: space-around;
   
   width: 60%;
@@ -84,11 +85,10 @@
  }
 
  .about_second_right{
-
-   margin: 0 auto;
-  margin-top: 59px;
-  /* border: 2px solid red; */
-
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border: 2px solid red;
  }
 
  .about_second_right img{
@@ -109,7 +109,7 @@
   .about_second_subcontainer{
     flex-direction: column;
     margin: 0px auto;
-    margin-top: 250px;
+    /* margin-top: 250px; */
     /* margin-left: 0px; */
     
 

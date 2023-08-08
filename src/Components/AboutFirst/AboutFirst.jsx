@@ -5,6 +5,8 @@ import Ellipse289 from '../../image/Ellipse289.png'
 
 
 
+
+
 const AboutFirst = () => {
   return (
     <div className="about_first_layer">
