@@ -17,6 +17,13 @@ function App() {
       </Route>
       <Route path="/about" element={<About/>}>
       </Route>
+      <Route path="/contact" element={<About/>}>
+
+      </Route>
+      <Route path="/support" element={<About/>}>
+          
+      </Route>
+
     </Routes>
     <Footer/> 
     
