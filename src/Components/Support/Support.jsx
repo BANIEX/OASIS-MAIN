@@ -1,3 +1,4 @@
+import "./Support.css "
 import Ellipse296 from "../../image/Ellipse 296.png";
 import Ellipse295_1 from "../../image/Ellipse 295 (1).png"
 import Image6 from "../../image/Ellipse268.png"

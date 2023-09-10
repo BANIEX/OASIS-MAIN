@@ -5,6 +5,7 @@ import Home from './Components/Home/Home';
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import Support from "./Components/Support/Support";
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
       <Route path="/contact" element={<Contact/>}>
 
       </Route>
-      <Route path="/support" element={<About/>}>
+      <Route path="/support" element={<Support/>}>
 
       </Route>
 
