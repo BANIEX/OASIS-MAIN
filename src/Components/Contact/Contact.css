@@ -12,6 +12,7 @@
 }
 .down{
   border: 2px solid yellow;
+  margin-bottom: 7.5rem;
 }
 
 .contact_right{
@@ -242,6 +243,13 @@ img.fb{
 
 .contact_right > div > span{
   color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .contact-right{
+        margin-right: 0px;
+    }
+    
 }
 
 @media only screen and (max-width: 600px){

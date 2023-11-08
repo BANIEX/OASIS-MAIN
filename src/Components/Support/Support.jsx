@@ -19,17 +19,6 @@ const Support = () => {
             <div className="support-support3">
               You can support us by being volunteers or by your donation.
             </div>
-          </div>
-          <div className="support-middlechild1-right">
-            <img src={Ellipse296} alt="children" />
-          </div>
-
-          {/* <div className="support-left">
-            <div>
-              <div className="support-rightmedia">
-                <img src={Ellipse296} alt="children" />
-              </div>
-            </div>
             <div className="support-Volunteer1">To Volunteer</div> <br />
             <div className="support-Volunteer2">
               To Volunteer kindly fill in the form below,providing your <br />{" "}
@@ -37,15 +26,100 @@ const Support = () => {
               An email will be sent to you concerning what step <br /> to take
               next.
             </div>
-            <br /> <br />
           </div>
-
-          <div>
-            <div className="support-right">
-              <img src={Ellipse296} alt="children" />
-            </div>
-          </div> */}
+          <div className="support-middlechild1-right">
+            <img src={Ellipse296} alt="children" />
+          </div>
         </div>
+        <div className="support-middlechild-two">
+          <div className="support-middlechild2">
+            <div className="support-left">
+              <div className="support-first">
+                <p className="support-tag">Enter Full Name</p>
+                <input type="text" className="support-input1" />
+              </div>
+              <div className="support-second">
+                <p className="support-tag">Email</p>
+                <input type="text" className="support-input1" />
+              </div>
+              <div className="support-submit">Submit</div> <br />
+              <br />
+            </div>
+
+            {/* <div className="support-left">
+              <div className="support-rightmedia">
+                <div className="support-rightmedia adults">
+                  {" "}
+                  <img src={Ellipse295_1} alt="adults" />
+                </div>
+              </div>
+
+              <div className="support-whatsapplink">
+                <div className="support-whatsapp1">Or Click whatsapp Link</div>
+                <div className="support-whatsapp2">
+                  <img src={Image6} alt="whatsapp" />
+                </div>
+              </div>
+              <p className="support-helo">
+                {" "}
+                <a href="wa.link@oasisinitiative.com/web">
+                  wa.link@oasisinitiative.com/web
+                </a>
+              </p>
+            </div> */}
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <br /> <br />
         <div className="support-middlechild">
           <div className="support-middlechild2">
