@@ -8,7 +8,7 @@
 }
 .header__con{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* grid-template-columns: 45% 45%; */
     /* gap: 4em; */
     /* padding: 1em 2em 2em 4em; */

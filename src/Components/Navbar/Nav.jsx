@@ -1,4 +1,6 @@
 import logo from '../../image/logo.jpeg'
+import oasislogo from '../../image/oasislogo.png'
+ 
 import './Nav.css'
 import { useState } from 'react';
 
@@ -13,7 +15,8 @@ const Nav = () => {
   return (
     <div className='nav__con'>
         <div className='logodiv'>
-            <img className='logo' src={logo} alt='logo' />
+            <img className='logo' src={oasislogo} alt='oasislogo' />
+            <div className='nav_initiative_text'>INITIATIVE</div>
         </div>
         <nav className={`nav ${isOpen? 'show': '' }`}>
             <ul className={`nav__list ${isOpen? 'open': '' }`}>
